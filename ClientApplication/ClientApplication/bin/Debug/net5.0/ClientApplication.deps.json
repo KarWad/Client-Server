@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ClientApplication/1.0.0": {
+        "dependencies": {
+          "NetworkCommsDotNet": "3.0.3",
+          "NetworkCommsDotNetStandard": "3.0.4.1"
+        },
+        "runtime": {
+          "ClientApplication.dll": {}
+        }
+      },
+      "NetworkCommsDotNet/3.0.3": {},
+      "NetworkCommsDotNetStandard/3.0.4.1": {
+        "runtime": {
+          "lib/netstandard2.0/NetworkCommsDotNet.dll": {
+            "assemblyVersion": "3.0.4.1",
+            "fileVersion": "3.0.4.1"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ClientApplication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NetworkCommsDotNet/3.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9PlnaiP7cHz+ICkan/kT2YhGRDfV3V00iCjwUmRRkUtxzo7lN76C+fC9n+tTKcFw7v7Eyq3zqlN+UE7apjTN2Q==",
+      "path": "networkcommsdotnet/3.0.3",
+      "hashPath": "networkcommsdotnet.3.0.3.nupkg.sha512"
+    },
+    "NetworkCommsDotNetStandard/3.0.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1KEoz2SrcSZMh0sCgVioGkkCgUbUbyNV9fD2+qfW49GnGPyp8IA5pmV+1Z1o/ZfGmcQyLwnuk6BeIsK7uSdX1g==",
+      "path": "networkcommsdotnetstandard/3.0.4.1",
+      "hashPath": "networkcommsdotnetstandard.3.0.4.1.nupkg.sha512"
+    }
+  }
+}
